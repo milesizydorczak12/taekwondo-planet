@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Taekwondo Planet</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta name="viewport" content="width=1157 initial-scale=1.0">
+        <style type="text/css">
+            div.content {
+                position: absolute;
+                padding: 15px;
+                background-color: #fff;
+                font-size: 24pt;
+                margin-top: 200px;
+            }
+
+            div.content_inner {
+                background-color: blue; 
+                color: #fff; 
+                padding: 10px;
+                font-family: Helvetica;
+            }
+
+            #c1 {left: 5%; right: 15%;}
+
+            #c2 {left: 15%; right: 5%; top: 31%; z-index: 1;}
+
+            #c3 {left: 5%; right: 15%; bottom: 15%;}
+
+            div.main_container {
+                height: 1800px;
+            }
+
+            @media(max-width: 1042px) {
+                div.content {
+                    font-size: 18pt;
+                }
+
+                #c2 {top: 28%;}
+
+                div.main_container {
+                    height: 1500px;
+                }
+            }
+
+            @media(max-width: 700px) {
+                div.main_container {
+                    height: 2000px;
+                }
+
+                #c2{top:29%;}
+                #c3{bottom: 13%;}
+            }
+        </style>
+    </head>
+
+    <body>
+    <div class="main_container"> 
+        <img id="lflag" src="taekwondo_flag.png" alt="flag">
+        <div class="page_header"> 
+            <h1> Taekwondo Planet</h1>
+            <ul style="text-align: center;">
+                <li> <a href="index.html"> Home </a></li>
+                <li> <a href="services.html" style="background-color: #999;"> Services </a></li>
+                <li> <a href="contact.html"> Contact </a> </li>
+            </ul>
+        </div>
+        <img id="rflag" src="taekwondo_flag.png" alt="flag">
+            
+        <div class="content" id="c1">
+            <div class="content_inner">
+                Standard Course:  <br>
+                Duration: 3-months, weekly sessions <br>
+                Price: $300
+                Description: This is our standard option which comes with 12 
+                3-hour practices that occur on a weekly basis. Perfect for a 
+                beginner or anyone who wants a comprehensive Taekwondo 
+                experience. You are garunteed to see progression in your 
+                abilities and confidence. <br>
+                Age groups: 
+                <div style="margin-left: 50px;">
+                    Child 7-12 <br>
+                    Teen 13-18 <br>
+                    Young Adult 18-25 <br>
+                    Adult 25-35 <br>
+                    Elderly 35+ <br>
+                </div>
+            </div> 
+        </div>
+
+        <div class="content" id="c2"> 
+            <div class="content_inner">
+                Extreme Course: <br>
+                Duration: 12-months, tri-weekly sessions <br>
+                Price: $3500 <br>
+                Description: This is our option for true masters of the sport
+                who are looking for an extreme challenge. Sparring gear is 
+                provided, but bring your own mouthguard. Students will be 
+                doing dangerous things, so we ask them to sign a waiver first. 
+                Due to recent legal activity, students with pre-existing medical
+                conditions are not permitted.
+
+            </div>
+        </div>
+
+        <div class="content" id="c3">
+            <div class="content_inner">
+                Kamehameha Course: <br>
+                Duration: 1 Course <br>
+                Price: $10,000 <br>
+                Description: Master Miles Izydorczak personally teaches the 
+                student the kamehame technique from the show dragon ball. It is
+                a very simple skill to learn, but closely guarded by masters of
+                the art. Students must sign non-disclosure documents that state
+                that they will never teach this skill to anyone else.
+
+            </div>
+        </div>
+
+
+        <div class="footer"> </div>
+    </div>
+    </body>
+</html>
